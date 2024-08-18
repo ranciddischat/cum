@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'SIGMA GOD JUNE 420',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
