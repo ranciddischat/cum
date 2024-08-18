@@ -27,6 +27,10 @@
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
+  --imgcol: linear-gradient(
+    rgba(255, 206, 51, 0.5),
+    rgba(255, 206, 51, 0.5)
+  ); /* Filter color */
 }
 
 .darktheme {
@@ -43,7 +47,11 @@
  
 
 /* S T Y L E S */
-
+ --imgcol:  /* Filter color */
+}linear-gradient(
+    rgba(255, 206, 51, 0.5),
+    rgba(255, 206, 51, 0.5)
+  );
 * {
   margin: 0;
   padding: 0;
