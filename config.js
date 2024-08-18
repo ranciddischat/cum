@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'SIGMA GOD JUNE 420',
-	imageBackground: false,
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
