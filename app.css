@@ -10,12 +10,13 @@
 
 @font-face {
     font-family: 'dobrabold'; /*a name to be used later*/
-    src: url('assets/webfontkit-20240818-185806/Dobra-Bold.ttf'); /*URL to font*/
+    src: url('assets/webfontkit-20240818-185806/Dobra-Bold.woff'); /*URL to font*/
 }
 
 .classname {
     font-family: 'dobrabold';
 }
+
 
 :root {
   /* Font Size */
@@ -31,14 +32,14 @@
 
   /* Light Colors  */
   --accent: #57a0d9; /* Hover color */
-  --background: #ffce33; /* Background color */
+  --background: #f5f5f5; /* Background color */
   --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
   --imgcol: linear-gradient(
-    rgba(255, 206, 51, 0.1),
-    rgba(255, 206, 51, 0.1)
+    rgba(231, 203, 114, 0.3),
+    rgba(231, 203, 114, 0.3)
   ); /* Filter color */
 }
 
@@ -52,15 +53,15 @@
   --fg: #d8dee9; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
 
-  /* Image background  */
- 
+  /* Image background black?  */
+  --imgcol: linear-gradient(
+    rgba(231, 203, 114, 0.3),
+    rgba(231, 203, 114, 0.3)
+  ); /* Filter color */
+}
 
 /* S T Y L E S */
- --imgcol:  /* Filter color */
-}linear-gradient(
-    rgba(255, 206, 51, 0.1),
-    rgba(255, 206, 51, 0.1)
-  );
+
 * {
   margin: 0;
   padding: 0;
