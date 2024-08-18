@@ -8,6 +8,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
 
+@font-face {
+    font-family: 'dobrabold'; /*a name to be used later*/
+    src: url('assets/webfontkit-20240818-185806/Dobra-Bold.ttf'); /*URL to font*/
+}
+
+.classname {
+    font-family: 'dobrabold';
+}
+
 :root {
   /* Font Size */
   --fg-primary: 12vh; /* Time and Greetings */
@@ -28,8 +37,8 @@
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
   --imgcol: linear-gradient(
-    rgba(255, 206, 51, 0.5),
-    rgba(255, 206, 51, 0.5)
+    rgba(255, 206, 51, 0.1),
+    rgba(255, 206, 51, 0.1)
   ); /* Filter color */
 }
 
@@ -49,14 +58,14 @@
 /* S T Y L E S */
  --imgcol:  /* Filter color */
 }linear-gradient(
-    rgba(255, 206, 51, 0.5),
-    rgba(255, 206, 51, 0.5)
+    rgba(255, 206, 51, 0.1),
+    rgba(255, 206, 51, 0.1)
   );
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'dobrabold';
   transition: 0.2s ease-in-out;
 }
 
