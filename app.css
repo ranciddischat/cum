@@ -22,7 +22,7 @@
 
   /* Light Colors  */
   --accent: #57a0d9; /* Hover color */
-  --background: #ffce33 ; /* Background color */
+  --background: #ffce33; /* Background color */
   --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
@@ -56,7 +56,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
   transition: 0.2s ease-in-out;
 }
 
