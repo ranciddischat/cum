@@ -8,11 +8,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
 
-@font-face {
-  font-family: 'disco-disco';
-  src: URL('assets/webfontkit-20240818-185806/Dobra-Bold.ttf') format('dobrabold');
+@font-face{
+    font-family: disco-disco;
+    src: url('../fonts/Dobra-Bold.eot');
+    src: url('../fonts/Dobra-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dobra-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Dobra-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-
 
 :root {
   /* Font Size */
@@ -43,7 +47,7 @@
   /* Dark Colors  */
   --accent: #57a0d9; /* Hover color */
   --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --cards: #4a727b; /* Cards color */
 
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
@@ -62,7 +66,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'dobrabold', disco-disco;
+  font-family: 'woff2', disco-disco;
   transition: 0.2s ease-in-out;
 }
 
